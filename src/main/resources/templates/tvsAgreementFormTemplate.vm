@@ -1,0 +1,1873 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="en-US">
+
+<head>
+    <style type="text/css">
+        /*li {
+            list-style-type: none;
+        }*/
+        body {
+            width:920px;
+            height:1122px;
+        }
+        td.tdAttributes{
+            vertical-align: top;
+            width: 4%;
+        }
+        td.nestedTd{
+            width: 5%;
+            vertical-align: top;
+        }
+        td.centerAlign{
+            text-align: center;
+        }
+        .border-table {
+            border-collapse: collapse;
+        }
+
+        .border-table, .border-table td, .border-table th{
+            border: 1px solid black;
+            font-size:16px;
+        }
+
+        .border-table td{
+            padding-left:10px;
+        }
+
+        .border-top{
+            border-top: 1px solid black;
+            width:100%;
+        }
+        .border-bottom{
+            border-bottom: 1px solid black;
+            width:100%;
+        }
+        .border-left{
+            border-left: 1px solid black;
+            width:100%;
+        }
+        .border-right{
+            border-right: 1px solid black;
+            width:100%;
+        }
+        .text-center{
+            text-align:center;
+        }
+        input[type=text].notTable {
+            border: none;
+            font-size: 14px;
+            color: black;
+            text-align:center;
+            font-weight: bold;
+            border-bottom: 1px solid black;
+            border-bottom-style: dotted;
+            padding-left: 6px;
+        }
+        input[type=text].table {
+            border: none;
+        }
+        .medium-space{
+            margin-bottom: 40px;
+            margin-top: 20px;
+        }
+
+        .input-box-text {
+            font-size: 14px;
+            color: black;
+            border: 0px;
+            font-weight: bold;
+            padding-left: 6px;
+        }
+    </style>
+</head>
+
+<body>
+<table>
+    <tr>
+        <td>
+            #if($logo)
+                <img src="data:image/png;base64,$logo" width="900" height="120" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 05px;"/>
+            #else
+
+                <img src="" width="250" height="90" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 10px;border: 1px solid #00008B;" />
+            #end
+        </td>
+    </tr>
+</table>
+<table width="100%">
+    <thead>
+    <tr><br><br><br><br>
+        <th><strong>Consumer Durables -Terms and Conditions</strong></th>
+    </tr>
+    </thead>
+</table>
+<table>
+
+    <tr>
+        <td><strong>Definitions</strong></td>
+    </tr>
+
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes">a)</td>
+        <td><strong>"Terms and conditions"</strong> means and includes the contractual rights, obligations and the Application, Schedules/attachments hereto or supplemental Contract(s), modifications, alterations, addendum   as amended and /or modified by TVS Credit from time to time and  accepted by  the Borrower either physically or online or through web or mobile  during the subsistence of the Contract(s).  </td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">b)</td>
+        <td width="96%" align="justify"><strong> "Acceptable Means of Communication" </strong>shall mean the modes of communication which can be used by either party to provide any information in relation to a Loan to the other party and with reference to  Borrower, shall mean  a telephonic call on the registered mobile /landline number of the Borrower as provided in the Application Form; or  email/s on the registered email address of the Borrower; or text message/s   to the registered mobile number of the Borrower; or any written notice sent by courier /post on the registered postal address of the Borrower, and   TVS Credit , shall mean   a telephonic call on the designated mobile/landline number of TVS Credit as provided on the Website; or an email/s on the designated email address of TVS Credit ; or  text message/s on the designated mobile number of TVS Credit; or   a written notice sent by courier/post  on the postal designated address of TVS Credit.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">c)</td>
+        <td width="96%" align="justify"><strong> "Consumer Durables"</strong> shall mean specified consumer durables, and such other products and/or services as may be approved by TVS Credit in its sole discretion from time to time.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">d)</td>
+        <td width="96%" align="justify"><strong>"Dealer/Merchant"</strong> refers to dealers or merchants who are registered and enrolled with TVS Credit in connection with purchase of the Products by the Borrower. </td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">e)</td>
+        <td width="96%" align="justify"><strong>"Dealer/Merchant Account" </strong>refers to the designated account of a Dealer or Merchant which is registered by the Dealer or Merchant with TVS Credit, from time to time. </td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">f)</td>
+        <td width="96%" align="justify"><strong> "ECS" </strong>or <strong> "NACH"</strong> refers to electronic debit clearing services or electronic payment services, participation in which has been consented to in writing by the Borrower, for facilitating the payment of EMI, fees and other applicable charges to TVS Credit in connection with the Loan availed by the Borrower.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">g)</td>
+        <td width="96%" align="justify"><strong>"Financial /Loan Terms"</strong> shall mean the Loan amount or the financial facility applied for or availed of by the Borrower from TVS Credit and includes the EMI, Loan tenure, applicable interest, fees, charges and such other payment terms.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">h)</td>
+        <td width="96%" align="justify"><strong> "Mode of Application"</strong> shall mean the availing of Loan by a Borrower by either of the following mode as permitted by TVS Credit:</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>
+            <ul>
+                <li>submitting an Application Form to an authorised TVS Credit Representative; or</li>
+                <li>submitting an Online Application.</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+<table style="margin-bottom: 35px">
+    <tr>
+        <td class="tdAttributes">i)</td>
+        <td width="96%" align="justify"><strong> "Online Application"</strong> means direct application made by the Borrower to TVS Credit on TVS Credit's web portal or TVS Credit's mobile application.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">j)</td>
+        <td width="96%" align="justify"><strong>"Valid Confirmation"</strong> shall mean the acceptance of the Loan Terms by the Borrower by, as the case may be, accepting the Loan Term Sheet or entering the Transaction Code at the Dealer or Merchant outlet or on TVS Credit's online portal wherever applicable.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">k)</td>
+        <td width="96%" align="justify"><strong> "InstaCard Programme Enrolment"</strong> shall mean the programme offered by TVS Credit and consented by the Borrower, by paying the necessary fee, wherein the Borrower may be enrolled for the InstaCard Programme as a member and the eligibility under the InstaCard programme, issuance of Pre-Approved limit and its activation will be subject to proper repayment of EMIs by the Borrower at least for a period of 3 months or earlier, or at the sole discretion of TVS Credit.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">l)</td>
+        <td width="96%" align="justify"><strong>"InstaCard/Card"</strong> shall mean a Physical or virtual card (carrying the unique identification number) issued to the Borrower in terms hereof. It is issued by TVS Credit to the Borrower for easy identification and usage of the Pre-approved limit with the TVS Credit partnered merchant (off-line and Online) networks, whether or not such Borrower has previously availed any loan facility from TVS Credit.</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes">1.</td>
+        <td width="96%"  align="justify"><strong>LOAN, DISBURSEMENT, INTEREST, FEES AND REPAYMENTS</strong></td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.1.</td>
+        <td width="96%"  align="justify">Subject to the terms and condition contained herein, the Loan may be granted by the Company to the Borrower(s). The Loan may be disbursed in full or in installment or in such other manner as may be decided by TVS Credit. The Loan may be disbursed to such other person/s as may be designated by the Borrower(s); provided however that disbursement if any made by TVS Credit to the aforesaid designated person/s shall not affect the obligations of the Borrower(s) in relation to the Loan and such disbursement of the Loan to the designated person(s) shall be deemed to be the Loan granted to and availed by the Borrower(s).</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.2.</td>
+        <td width="96%" align="justify">The Borrower(s) shall pay interest on the Loan amount at the rate specified in the Loan Summary Schedule. The interest on the Loan shall be calculated on a daily basis with monthly rests on the outstanding principal balance. The interest on the Loan shall begin to accrue from the date of issuance of loan cheque, (TVS Credit will disburse by cheque/ECS transfer/NEFT/RTGS/SI or by cash to the borrower) irrespective of the time taken for transit, collection, realization of the cheque by the Borrower(s) or his bank.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.3.</td>
+        <td width="96%"  align="justify">TVS Credit shall however at its discretion, be entitled to revise upward or downward, prospectively, the rate of interest applicable for the Loan having regard to the applicable regulation, conditions in the money market, cost of fund and availability of the loanable funds at the relevant time.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.4.</td>
+        <td width="96%"  align="justify">The Borrower(s) shall repay the Loan along with interest in equated monthly installments (EMIs) on the due dates and in the manner specified in the Loan Summary Schedule.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.5.</td>
+        <td width="96%" align="justify">TVS Credit shall be entitled to at all times to vary the amount of instalment or the period or the manner of repayment of the said Loan, on account of revision of in the rate of interest or otherwise and the Borrower(s) shall repay the Loan in the manner as may be stipulated by TVS Credit. The repayment schedule of the Loan is without prejudice to the rights of TVS Credit to re-compute the interest in case of variation of the interest and on such re-computation the payments shall be made by the Borrower(s) in accordance with such amended repayment schedule as may be intimated by TVS Credit to the Borrower(s).</td>
+    </tr>
+
+</table>
+<table>
+    <tr>
+        <td>
+            #if($logo)
+                <img src="data:image/png;base64,$logo" width="900" height="120" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 05px;"/>
+            #else
+
+                <img src="" width="250" height="90" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 10px;border: 1px solid #00008B;" />
+            #end
+        </td>
+    </tr>
+</table>
+<table >
+    <tr>
+        <td class="tdAttributes">1.6.</td>
+        <td width="96%"  align="justify">Any dispute or difference of any nature whatsoever shall not entitle the Borrower to withhold or delay payment of any monthly installments or other sum and TVS Credit shall be entitled to present the PDCs /ECS/ACH mandate to the bank of the Borrower on the due dates. </td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.7.</td>
+        <td width="96%" align="justify">The Borrower(s) shall bear and pay to TVS Credit fees and charges as specified in the Loan Summary Schedule which would include </td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="justify">but not limited to documentation and processing charges (non-refundable), Pre Installment Interest (if applicable) , cheque bounce charges, cheque/ECS swap charges, delayed payment charges, prepayment/foreclosure charges and any fee or charges, statutory or otherwise, payable in respect of the Loan. </td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.8.</td>
+        <td width="96%" align="justify">TVS Credit shall be entitled to revise the above fee/charges with due notice to the Borrower(s). In addition to the above charges, the Borrower(s) shall also bear, pay and reimburse to TVS Credit, all charges relating to interest tax, goods and service tax (GST), duties (including stamp duty), and taxes (of any description as may be levied from time to time by the government or other authority) and all other cost and expenses whatsoever in connection with (a) application for and the grant and repayment of Loan;(b) recovery and realization of the Loan together with interest, any charges towards legal cost etc., that may be incurred towards recovery of dues ;(c) enforcement proceedings, if any.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.9.</td>
+        <td width="96%" align="justify">The Pre Installment Interest, advance installment, insurance premium, documentation charges, transaction/processing charges and/or any other charges under or in connection with the Loan will be deducted from the Loan and only the net amount of the Loan after the deduction of such fees and/or charges shall be disbursed to the Borrower(s).</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.10.</td>
+        <td width="96%" align="justify">The Loan shall be repayable forthwith on demand, and accordingly, notwithstanding a repayment schedule for the Loan, TVS Credit shall have the right to be paid forthwith on demand the entire amount outstanding under the Loan along with all other dues, including interest in respect of the Loan.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.11.</td>
+        <td width="96%" align="justify">The Borrower(s) shall pay to TVS Credit margin money and/or such number of installments in advance, if any, as set out in the Loan Summary Schedule at the time of execution of the Contract(s). The advance installments, if any paid, shall be adjusted against the installments in the manner set out in the Loan Summary Schedule.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.12.</td>
+        <td width="96%" align="justify">The Borrower(s) shall issue postdated cheques (PDC)/ECS/ADM/SI for the repayment of the loan. The Borrower(s) acknowledges that ECS/ACH/SI mode of repayment is over and above the PDC's issued in favour of TVS Credit. The Borrower shall have the option of paying the monthly installment by way of cash with the prior consent of TVS Credit.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.13.</td>
+        <td width="96%" align="justify">The Borrower hereby shall authorise TVS Credit to destroy PDC(s) (if any) in the possession of TVS Credit upon repayment of the Loan together with costs, charges and expenses, by the Borrower to the satisfaction of TVS Credit.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.14.</td>
+        <td width="96%" align="justify">The Borrower shall not change the name or constitution or close the bank account, from where the PDC's /ECS /ACH /SI mandates are live, without the prior consent of TVS Credit. The Borrower herein shall pay the cheque /ECS /ACH or other bounce charges and overdue interest till date of payment of the cheque amount, in addition to remittance of the cheque amount.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.15.</td>
+        <td width="96%" align="justify">The Borrower(s) shall not use the Loan (or any part thereof) for any purpose other than the purpose specified in the application form, or for any speculative, improper or illegal or unlawful purposes/activities.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.16.</td>
+        <td width="96%" align="justify">In the event of two or more Borrower(s), the liability of the Borrower(s) to repay the Loan and to fulfil the obligations under the Contract(s) shall be joint and several and co-extensive.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.17.</td>
+        <td width="96%" align="justify">All payment to be made by the Borrower(s) to TVS Credit under or pursuant to this Contract(s) shall be made free and clear of and without any deduction for or on account of any tax deduction, so that TVS Credit receives and retains (without any liability for such deduction) a sum equal to the sum which it would have received had such deduction not been made or required to be made. Service tax and all other applicable taxes or other statutory levies, if any, will be charged to and payable by the Borrower(s).</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.18.</td>
+        <td width="96%" align="justify">TVS Credit has the right to demand borrower to remit all his dues if retiring before the age of superannuation.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.19.</td>
+        <td width="96%" align="justify">Borrower shall not be a director /partner / member of any other bank or financial institution including NFBC/ Scheduled / co-operative banks.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.20.</td>
+        <td width="96%" align="justify">The Borrower shall during business hours permit TVS Credit to inspect the place of business of the Borrower and also agrees to produce any documents /additional documents as may be required by TVS Credit from time to time.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.21.</td>
+        <td width="96%" align="justify">In the event of default in making repayment of any of the monthly or periodic installments or any other amount due in relation to the Loan, the Borrower(s) shall be liable to pay Additional Interest at the rate specified in the Loan Summary Schedule. The delayed payment charges shall be in addition to any other charges, which the Borrower(s) is/are liable to pay to TVS Credit in terms of the Loan.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.22.</td>
+        <td width="96%" align="justify">The Borrower shall repay the EMIs without any reminders or notice.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.23.</td>
+        <td width="96%" align="justify">The Borrower(s) shall also be entitled to pay the installment in advance, if any applicable; however TVS Credit shall not be liable to pay any interest on the installment paid in advance.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">1.24.</td>
+        <td width="96%" align="justify">The Borrower undertakes and agrees that he/she will not sell or alienate the Product/s to any third party until the repayment is made to the satisfaction of TVS Credit, solely responsible to make good to the TVS Credit against any claim or damages of whatsoever nature from any third party on TVS Credit in this regard.</td>
+    </tr>
+    <tr>
+        <td><p></p></td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">2.</td>
+        <td width="96%" align="justify"><strong>EVENT OF DEFAULT AND CONSEQUENCES OF DEFAULT</strong></td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">2.1.</td>
+        <td width="96%" align="justify">An event of default shall be deemed to have occurred if:</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">a)</td>
+        <td width="90%" align="justify"> The Borrower(s) commits a breach of any of the terms and conditions contained in this Contract(s); or  </td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">b)</td>
+        <td width="90%" align="justify"> The Borrower(s) fails to pay/repay any installments or any other payment on or before the due dates; or  </td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">c)</td>
+        <td width="90%" align="justify"> The Borrower(s) commits any default under any other Contract(s) with TVS Credit or other bank and financial institution; or </td>
+    </tr>
+
+</table>
+<table>
+    <tr>
+        <td>
+            #if($logo)
+                <img src="data:image/png;base64,$logo" width="900" height="120" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 05px;"/>
+            #else
+
+                <img src="" width="250" height="90" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 10px;border: 1px solid #00008B;" />
+            #end
+        </td>
+    </tr>
+</table>
+<br>
+<table>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">d)</td>
+        <td width="90%" align="justify"> It is found that Borrower(s) has made any misrepresentation to TVS Credit; or </td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">e)</td>
+        <td width="90%" align="justify"> The Borrower(s) commits an act of insolvency or if the Borrower is declared insolvent or bankrupt or if a liquidator, receiver or an officer is appointed in respect of any property or estate of the Borrower(s) or if the Borrower(s) makes any application for declaring himself to insolvent or if an application for declaring the Borrower(s) to be insolvent is made or any order is passed by the competent court or authority for taking the Borrower(s) into insolvency; or</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">f)</td>
+        <td width="90%" align="justify"> The Borrower(s) or any partner or director of the Borrower(s) ceases to carry on the declared profession/business; or</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">g)</td>
+        <td width="90%" align="justify"> There is any change in the status or constitution of the Borrower(s) and such change is considered by TVS Credit to be a material change; or</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">h)</td>
+        <td width="90%" align="justify"> There exist any circumstances which in the opinion of TVS Credit prejudicially affect or may affect the TVS Credit'S interest or the Borrower's ability to repay the Loan.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">i)</td>
+        <td width="90%" align="justify">The Borrower(s) disposes/dismantles/commits any act detrimental to the hypothecated properties prior to the closure of the Loan.</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes">2.2.</td>
+        <td width="96%" align="justify">Without prejudice to the TVS Credit's other rights, if the borrower fails to pay any amount payable under the Contract(s) or of any amount becoming due and payable or if any event of default occurs the company shall be entitled to take appropriate legal proceedings  against the borrower (s)  and guarantor(s).</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">a)</td>
+        <td width="90%" align="justify">The Borrower shall not prevent or obstruct TVS Credit or its agents from taking possession of the consumer durables including locking of mobile phone/tablet/any other electronic gadgets  purchased through the credit facility availed hereunder (hereinafter referred to as the said Product /Service).</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">b)</td>
+        <td width="90%" align="justify">Inspite of intimation by TVS Credit, if the borrower fails to settle the outstanding dues along with all other charges/ expenses prior to sale/auction of the Article(s), TVS Credit will be entitled to sell, give on hire, or otherwise deal with the Article/s by public or private auction or private sale without being liable for any loss, and to apply the net proceeds there of firstly towards the satisfaction of all costs incurred in respect of such sale, and or deduct secondly towards payment of the balance of the interest and other sums payable by the borrower to TVS Credit and then towards the outstanding principal amount of the sanctioned loan and if there is any surplus, after adjustment and payment of all taxes charges etc on the transaction , TVS Credit shall pay such surplus amount to the Borrower(s). However, the company would hand over possession of the Article or Product  to the borrower any time after repossession and before concluding the sale transaction in the event the Borrower clears all the dues to the  satisfaction of TVS Credit.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">c)</td>
+        <td width="90%" align="justify">If the Borrower(s) purchase/s mobile phone/tablet/any other electronic gadgets, he/she unconditionally authorizes TVS Credit to send reminders/ blinker notification messages or to lock the mobile in the event of any delay of payment of EMIs including the charges etc., and if the default continues, until the Borrower(s) clear such dues. The borrower shall pay the shortfall or deficiency, if the net sum realized by such sale/assignment of hypothecated property is insufficient to pay the dues.</td>
+    </tr>
+    </td>
+    </tr>
+    <tr>
+        <td><p></p></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes">3.</td>
+        <td width="96%" align="justify"><strong>OTHER TERMS AND CONDITION</strong></td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">3.1.</td>
+        <td width="96%" align="justify">TVS Credit shall have a lien over all the Product/s of the Borrower(s) purchased through this Facility / in TVS Credit control and a right to set off against any monies due from the Borrower(s) to TVS Credit and to combine all accounts of the Borrower(s) for recovery of TVS Credit dues.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">3.2.</td>
+        <td width="96%" align="justify">The Borrower(s) shall not directly or indirectly assign or transfer all or any of its rights, benefits or obligations under the Contract(s) and/or the Loan. </td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">3.3.</td>
+        <td width="96%" align="justify">TVS Credit may, at any time, without any consent of or reference to the Borrower(s) be entitled to sell, assign, securitize, novate or transfer all or any of its rights, benefits and obligations under this Contract(s) to any person in whole or in parts and in such manner and on such terms and conditions as TVS Credit may decide any such sale, assignment or transfer shall conclusively bind the Borrower(s).</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">3.4.</td>
+        <td width="96%" align="justify">TVS Credit shall have full power and authority to appoint one or more third parties of TVS Credit choice to verify any fact or information furnished by the Borrower(s) and/or to transfer or delegate to such third parties the right and authority to take all acts/steps as are necessary for TVS Credit to take in order to recover /receive amounts due to TVS Credit or  collect on behalf of TVS Credit all unpaid amounts under the Loan, attend the office or residence of the Borrower(s), receive the amounts due, and generally perform all lawful acts as the third party may consider appropriate for such purposes.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">3.5.</td>
+        <td width="96%" align="justify">TVS Credit is authorised to exchange, share, disclose or part with all the information and details relating to the Borrower(s) existing loans and/or repayment history to any business entity with whom the TVS Credit has or may have any business tie-up in future, banks, financial institutions, credit bureaus, agencies, statutory bodies etc. as may be required or as they may deem fit. The Credit Bureau and any other agency so authorized may use and process the said information and data disclosed by the TVS Credit in the manner as deemed fit by it/them.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">3.6.</td>
+        <td width="96%" align="justify">I/We understand and agree that the commencement of policy coverage will start from the date of disbursement of loan and any claims on risk prior to disbursement date will not be entertained.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">4.</td>
+        <td width="96%" align="justify"><strong>PREPAYMENT </strong></td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">4.1.</td>
+        <td width="96%" align="justify"> The Borrower(s) shall prepay the Loan amount either in full or partly and interest outstanding under this Contract(s) after the expiry of first six (6) months of the Loan tenor. In the event the Borrower(s) exercises its right to prepay, TVS Credit shall be entitled to </td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="justify">charge prepayment fee/charges at the rate /revised rate specified in the Loan Summary Schedule.</td>
+    </tr>
+</table>
+<table style="page-break-before: always">
+    <tr>
+        <td>
+            #if($logo)
+                <img src="data:image/png;base64,$logo" width="900" height="120" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 05px;"/>
+            #else
+
+                <img src="" width="250" height="90" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 10px;border: 1px solid #00008B;" />
+            #end
+        </td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes">4.2.</td>
+        <td width="96%" align="justify">The amount pre-paid shall be first used to credit the overdue charges, bank charges, legal expenses if any, Arrears of installments, interest due upto date for the current month, the current month EMI, foreclosure / pre-payment charges and other expenses as mentioned in this Contract(s). If any amount remains meeting the charges then it shall be adjusted towards the principal amount.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">5.</td>
+        <td width="96%"  align="justify"><strong>REMEDIES OF TVS Credit</strong></td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="justify">At any time after the occurrence of an event of default, as aforesaid, then notwithstanding anything to the contrary herein contained:</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes">5.1.</td>
+        <td width="96%" align="justify">TVS Credit shall be entitled at its absolute discretion, to declare that the Loan and all interest accrued and all costs, charges, expenses and other sums outstanding under this Contract(s) and the Loan are immediately due and payable to TVS Credit, whereupon the same shall be come immediately due and payable by the Borrower and the Borrower shall pay all the amount and/or the Contract(s) in accordance with the terms of the notice any further notice or other legal formalities of any kind.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">5.2.</td>
+        <td width="96%" align="justify">TVS Credit shall be entitled to exercise any right, power or remedy permitted to it by law, including by suit, in equity, or by action at law, or both, or otherwise, whether for specific performance of any covenant, condition or term contained in the Terms and Conditions or Loan Contract(s) or for an injunction against a violation of any of the terms and conditions of the Contract(s), or in aid of the exercise of any power or right granted in the Contract(s).</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">6.</td>
+        <td width="96%" align="justify"><strong>SECURITY</strong></td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">6.1.</td>
+        <td width="96%" align="justify">The Borrower, as the sole legal and beneficial owner of the Consumer Durables and as security for the due, prompt and complete payment of the Loan Terms, does hereby hypothecates by way of a first ranking, sole and exclusive charge in favour of TVS Credit, all rights, title, interest and benefit in the consumer durables.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">6.2.</td>
+        <td width="96%" align="justify">TVS Credit shall be entitled at its absolute discretion, enforce the security created pursuant to clause 6.1 of this Contract and exercise any and all rights, powers, remedies, authorities and/or discretions acquired by it in respect of the Hypothecated Properties under this Contract and applicable Laws.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">6.3.</td>
+        <td width="96%" align="justify">TVS Credit is empowered to authorize its employee/agency/authorized representative to enforce the security by taking possession of the hypothecated properties in case of happening of an event contained in Clause 2 of this contract for which the borrower shall cooperate without any protest or demur and undertake to surrender the hypothecated properties unconditionally.</td>
+    </tr>
+</table>
+<br>
+<table>
+    <tr>
+        <td class="tdAttributes">7.</td>
+        <td width="96%" align="justify">TVSCS being a Group Master Policy Holder will cover the Loan Amount provided by the Borrower. TVS Credit will collect the insurance premiums from the Borrower at timely intervals and the complete amount will be	transferred to the insurer.</td>
+    </tr>
+</table>
+<br>
+<table>
+    <tr>
+        <td class="tdAttributes">8.</td>
+        <td width="96%" align="justify"><strong>ELECTRONIC MEDIA </strong></td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">8.1.</td>
+        <td width="96%" align="justify">The online acceptance of the Contract(s) on the Website results in a binding contract between the Parties.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">8.2.</td>
+        <td width="96%" align="justify">The transmission of the Contract(s), terms and conditions, instructions, acceptance and communications through electronic means such as email, facsimile, SMS text messaging, websites, online acceptance etc, (Electronic Media) involves number of risks including fraudulent alterations and incorrect transmissions and absence of confidentiality. However, the Borrower may be desirous of receiving Communications from and providing Communications to TVS Credit through the Electronic Media for various matters under this Contract(s) including in relation to the Loan and operation thereof.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">8.3.</td>
+        <td width="96%" align="justify">In consideration of TVS Credit permitting the same, the Borrower hereby irrevocably confirms and undertakes as under:</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">a)</td>
+        <td width="90%" align="justify">TVS Credit shall be entitled (without being bound to do so) to rely upon the communications provided through electronic media (and believe the same to be genuine) for their requirements. In case of any question as to what were the communications provided or received, the records of the electronic media received by TVS Credit shall be treated as final, conclusive and binding.</td>
+    </tr>
+    <tr><br><br><br><br>
+        <td width="5%"></td>
+        <td class="nestedTd">b)</td>
+        <td width="90%" align="justify">The Borrower has ensured and shall ensure that the Communications provided through the electronic media to TVS Credit are provided by the Borrower and hereby agrees and confirms that TVS Credit shall not be responsible for conducting any verification whatsoever in this regard.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">c)</td>
+        <td width="90%" align="justify">The Borrower is aware and confirms that TVS Credit is agreeing to act on any communications provided through electronic media only by reason of, relying upon the undertaking   contained therein.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">d)</td>
+        <td width="90%" align="justify">TVS Credit shall not be liable for any  consequences or any act or refusal or omission to act or deferment of action by TVS Credit.</td>
+    </tr>
+    </td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes">9.</td>
+        <td width="96%" align="justify"><strong>ARBITRATION</strong></td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="justify">If any dispute, difference, or claim arises between any of the Parties in connection with the Service or as to the interpretation, validity, implementation, or effect of the Terms and Conditions  or as to the rights and liabilities of the parties under the  contract  or alleged breach of the Terms & Conditions  or anything done or omitted to be done pursuant to the contract ,  the same shall be settled by arbitration by a sole arbitrator to be appointed by any of the following institutions:</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">a)</td>
+        <td width="96%" align="justify">The Council for National and International Commercial Arbitration having its office at Unit No.208, 2nd Floor, Beta Wing, Raheja Towers, Nos.113-134, Anna Salai, Chennai-600002.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="center">(Or)</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">b)</td>
+        <td width="96%" align="justify">Centre for Online Resolution of Disputes having its office at F-14, 3rd Cross, Manyata Residency, Manyata Tech Park, Bengaluru-560045.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="center">(Or)</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">c)</td>
+        <td width="96%" align="justify">Madras Alternative Dispute Resolution Centre having its office at C-40, 2nd Floor, 2nd avenue, Anna Nagar West, Chennai-600040.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="center">(Or)</td>
+    </tr>
+</table>
+<table style="page-break-before: always">
+    <tr>
+        <td>
+            #if($logo)
+                <img src="data:image/png;base64,$logo" width="900" height="120" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 05px;"/>
+            #else
+
+                <img src="" width="250" height="90" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 10px;border: 1px solid #00008B;" />
+            #end
+        </td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes">d)</td>
+        <td width="96%" align="justify">Madras Arbitration solutions LLP having its office at 11/6, Francis Joseph Street, Parrys, Chennai-600001.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="center">(Or)</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">e)</td>
+        <td width="96%" align="justify">Under the Rules of Madras High Court Arbitration Centre. The arbitrator(s), shall be appointed in accordance with the rules of&nbsp;'MHCAC'&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="justify">Hereinafter referred to as&nbsp;("Institution")&nbsp;in accordance with the rules of the Institution as prevailing and as amended from time to time.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="justify">The arbitration proceedings shall be based on documents only which shall be conducted through exchange of e-mail and/or any other mode of electronic communication as permitted by the rules of the Institution or through an online dispute resolution by the web portal offered by the Institution. The parties hereby agree that the arbitral proceeding shall be conducted in electronic mode and all pleadings and documents will be exchanged electronically. There shall be no in-person and/or oral hearings except in certain exceptional circumstances as the sole arbitrator may deem fit upon the request of either of the parties. In such instances, the hearings shall be conducted virtually at the sole discretion of the arbitrator. The Venue of arbitration for all purposes shall be deemed to be at such place is Chennai. The language of arbitral proceedings shall be English.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="justify">In the event the arbitrator to whom the matter is originally referred, resigns, or dies or is unable to act for any reason, the Institution shall appoint another person in his/her place to act as an arbitrator who shall proceed with the reference from the stage at which it was left by his/her predecessor.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="justify">The arbitrator so appointed shall have the power to pass an award and to pass interim orders/directions as may be appropriate to protect the interest of the parties pending the resolution of the dispute. A certified copy of the award passed by the arbitrator, a digitally signed copy of the same or a scanned copy of the same shall be sent to the parties through e-mail or any other electronic mode including the web portal as the Institution deems fit which shall be considered as a signed copy. </td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="justify">All notices, processes, and communications between the parties with respect to the arbitration proceedings shall be through e-mail or any other mode of communication permitted by the Institution notwithstanding the notice clause contained in the Contract which shall continue to apply to all other communications between the parties. </td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="justify">It shall be the responsibility of the parties to maintain sufficient space in the e-mail account and/or in any other mode of electronic account(s) and also to have supporting applications/software in their computer/mobile/any other electronic device to access the electronic documents sent to them. It shall also be the responsibility of the Parties to save the emails in the address book. The delivery of emails to spam, promotion, etc., shall also be a deemed delivery. </td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="justify">The Chennai courts shall have exclusive jurisdiction in respect of matters arising under this Contract including any application for setting aside the award/appeal and the Parties shall not object to such jurisdiction. The arbitration shall be conducted under the provisions of the Arbitration and Conciliation Act, 1996 together with its amendments, any statutory modifications or re-enactment thereof for the time being in force. The award of the arbitrator shall be final and binding on all parties concerned. The cost of arbitration shall be followed by the event. </td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="justify">Subject to the above, the Parties shall, for obtaining interim relief, submit to the jurisdiction of the courts at Chennai to the exclusion of all other courts. </td>
+    </tr>
+</table>
+<br>
+<table>
+    <tr>
+        <td class="tdAttributes">10.</td>
+        <td width="96%" align="justify"><strong>MISCELLANEOUS</strong></td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">10.1.</td>
+        <td width="96%" align="justify">The Mode of Application will be available subject to Applicable Laws including the Telecom Commercial Communication Customer Preference Regulation (TCCCPR), 2018. The Contract applicable to the Loan which may be availed by the Borrower has been uploaded and may be downloaded from the Website. </td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">10.2.</td>
+        <td width="96%" align="justify"> The Borrower completed 18 (eighteen) years of age and can read, write and understand English language and is of sound mind.  Any consent/communication provided by the Borrower by way of the Acceptable Means of Communication shall be deemed as a valid and authentic consent/communication by the Borrower, and TVS Credit shall not be liable for any error on the Borrower's part or on the </td>
+    </tr>
+</table>
+
+<table width="100%">
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="justify">part of the mobile service provider.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">10.3.</td>
+        <td width="96%" align="justify">If any term or provision of these Terms and Conditions is declared invalid by a Court of competent jurisdiction, the remaining terms and provisions shall remain unimpaired and be in full force and effect.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">10.4.</td>
+        <td width="96%" align="justify"> The Borrower(s) shall declare that all the particulars and details given/filled in the application form and documents uploaded/submitted along with application are true, correct, complete and up to date in all respect and no material detail has been concealed which would have an effect on the decision of grant of the Loan.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">10.5.</td>
+        <td width="96%" align="justify"> No delay or omission to exercise any right, power or remedy accruing to TVS Credit upon any breach or default of the Borrower shall</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="justify"> impair any such right, power or remedy of TVS Credit nor shall it be construed to be a waiver of any such breach or default or an acquiescence therein nor shall any waiver of any single breach or default be deemed a waiver of any other breach or default.  The rights and remedies provided to TVS Credit in the Contract(s) are cumulative and not exclusive of any rights or remedies provided by law. </td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">10.6.</td>
+        <td width="96%" align="justify">The Borrower(s) shall notify TVS Credit in writing within a week's time, any of his/her /their
+            -   Change in address
+            -   Change in employment/business including migration outside /within India either temporary or otherwise.
+            -   Change from resident to NRI</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">10.7.</td>
+        <td width="96%" align="justify">Upon the Borrower paying to TVS Credit the outstanding, the Borrower may download the 'No Objection Certificate' with respect to   repayment and no dues under the Loan from the Website or visit the TVS Credit branch for the same.</td>
+    </tr>
+</table>
+<table style="page-break-before: always">
+    <tr>
+        <td>
+            #if($logo)
+                <img src="data:image/png;base64,$logo" width="900" height="120" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 05px;"/>
+            #else
+
+                <img src="" width="250" height="90" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 10px;border: 1px solid #00008B;" />
+            #end
+        </td>
+    </tr>
+</table>
+<table width="100%">
+    <tr>
+        <td class="tdAttributes">10.8.</td>
+        <td width="96%" align="justify">I voluntarily opt for the InstaCard Programme enrolment at my own wish and agree that my eligibility under the InstaCard Programme, will be subject to proper repayment of EMIs, at least for a period of 3 months or stipulated by policies in the Consumer Durable Loan, or at the sole discretion of TVS Credit. I agree that the facility/transaction under this programme, shall be part of the consumer Durable loan executed/to be executed by me. Each such facility/transaction shall have a separate repayment schedule and I shall strictly adhere to the same.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">10.9.</td>
+        <td width="96%" align="justify">I have read and understood the terms & conditions of this Contract and I have been provided with the copy of this Terms and Conditions.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">10.10.</td>
+        <td width="96%" align="justify">I hereby agree to buy T-Health at the price mentioned above. I understand that T-Health is a product provided by Bajaj Finserv Health and the services provided to me will be subject to the terms and conditions of T-Health. I hereby give my consent to Bajaj Finserv Health to contact me through phone, post or email to activate and provide services of T-Health. Further, in the event I purchase T-Health on finance from TVS Credit, I hereby authorize Bajaj Finserv Health to cancel my T-Health membership, upon instruction received by TVS Credit in the event I default in the repayment of the finance facility availed by me from TVS Credit for the purchase of T-Health and/or the product/main appliance as mentioned above and verified the terms and conditions and understood feature of the product.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">10.11.</td>
+        <td width="96%" align="justify">The Borrower agrees that the products under "T-Health" shall be considered as a separate product subject to the terms and conditions of "T-Health" and shall be independent of the Loan Agreement. Any dispute arising out of "T-Health" will not affect the terms of repayment of the loan availed by the Borrower. The name of the product selected by customer [T-Health Silver / T-Health Gold] and the price applicable [1000 / 1500] to the respective product should be given in applicant and agreement. Click here https://www.tvscredit.com/media/2772/t-health-terms-and-conditions.pdf to view the Terms and Conditions for T-Health</td>
+    </tr>
+</table>
+<div class="medium-space"></div>
+<table width="100%">
+    <thead>
+    <tr><br>
+        <th><strong>Terms and Conditions of the InstaCard Programme&nbsp;("Pre-approved Loan programme")&nbsp;</strong></th>
+    </tr>
+    </thead>
+</table>
+<br>
+<p align="justify">In connection with the loan availed by the borrower (<strong>"Borrower"</strong>) under the Terms and Conditions ("Consumer Durable Loan"), the Borrower has opted to enroll in the Pre-approved loan programme (defined below) offered by TVS Credit Services Limited (<strong>"TVS Credit / Company"</strong>), wherein the Borrower sanctioned with a pre-approved credit limit , Subject to fulfilling the eligibility criteria, the customer shall be entitled to  use the credit  facility by transferring the funds to the bank account or for purchases at TVS Credit empaneled merchant establishments and e commerce platforms</p>
+<p align="justify">The terms and conditions (<strong>"Terms and Conditions"</strong>) mentioned herein are applicable to the enrolment to the pre-approved loan programme by the Borrower. These Terms and Conditions read with the terms of the Consumer durable Loan constitute the entire contract between TVS Credit and the Borrower, as amended from time to time.</p>
+<p align="justify">By completing the sign-up process for enrolment under the pre-approved loan programme, the Borrower is deemed to have expressly read, understood, accepted and be bound by the Terms and Conditions set out herein. TVS Credit reserves the right to change, at any time, these terms and conditions, features and benefits offered under the pre-approved loan programme including, without limitation to, changes which affect existing balances, methods of calculation. The eligible Borrower agrees that he shall be liable for all charges incurred and all other obligations under the revised terms.</p>
+<table>
+    <tr>
+        <td class="tdAttributes"><strong>1.</strong></td>&nbsp;
+        <td width="96%" align="justify"><strong>DEFINITIONS:</strong></td>
+    </tr>
+</table>
+<table width="100%">
+    <tr>
+        <td class="tdAttributes">1.1.</td>
+        <td width="96%" >In this document, the following word and phrases shall have the following meanings:</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">(a)</td>
+        <td width="90%" align="justify"><strong>"Pre-approved loan programme"</strong> shall mean the program offered by the Company and consented to by the Borrower, by paying the necessary fee, wherein the Borrower may be enrolled as a member subject to meeting the eligibility criteria.</td>
+    </tr>
+</table>
+<table>
+    <tr><br><br><br><br>
+        <td width="5%"></td>
+        <td class="nestedTd">(b)</td>
+        <td width="90%" align="justify"><strong>"InstaCard"</strong> shall mean the card issued by TVS Credit Services, either in Physical or Electronic Card, carrying the unique identification number allotted to the customer with the validity details.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">(c)</td>
+        <td width="90%" align="justify"><strong>"Fees/Charges"</strong> means such charges as set out in these terms and conditions. All details mentioned herein shall be provided in the loan term sheet unless specifically communicated to the Borrower and as amended from time to time.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">(d)</td>
+        <td width="90%" align="justify"><strong>"EMI/Equated Monthly Instalments"</strong> shall mean the amount payable every month by the Borrower to TVS Credit comprising of principal amount, interest and other charges, as the case maybe.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">(e)</td>
+        <td width="90%" align="justify"><strong>"Pre-approved loan </strong>- Application Form" shall mean and include the application agreed, executed/ to be executed by the Borrower in the form and manner stipulated by the TVS Credit, from time to time.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">(f)</td>
+        <td width="90%" align="justify"><strong>"Welcome letter"</strong> means a letter sent by TVS Credit to the Borrower setting out the pre-approved loan programme/ credit details and the gist of important terms and conditions applicable for availing/utilizing the Credit facility.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">(g)</td>
+        <td width="90%" align="justify"><strong>"Merchant Establishment"</strong> shall mean establishments, wherever located, which honour the facility may include among others, stores, shops, hotels, airlines and mail order advertisers.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">(h)</td>
+        <td width="90%" align="justify"><strong> "POS"&nbsp;/&nbsp;"EDC"&nbsp;</strong> means Point of Sale / Electronic Data Capturing machines used at Merchant Establishments in India, capable of processing transactions and at which, the Borrower can use his given credit limit sanctioned to him Instantly.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">(i)</td>
+        <td width="90%" align="justify"><strong>"PIN"</strong> means the Personal Identification Number allocated to the Borrower by the Bank/PPI Issuer and / or subsequently changed by the Borrower as per his choice, in relation to the facility</td>
+    </tr>
+    </td>
+    </tr>
+</table>
+<table width="100%" style="page-break-before: always">
+    <tr>
+        <td>
+            #if($logo)
+                <img src="data:image/png;base64,$logo" width="900" height="120" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 05px;"/>
+            #else
+                <img src="" width="250" height="90" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 10px;border: 1px solid #00008B;" />
+            #end
+        </td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes"><strong>2.</strong></td>
+        <td width="96%" align="justify"><strong>ELIGIBILITY CRITERIA AND ENROLMENT:</strong></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes">2.1.</td>
+        <td align="justify"><b>Eligibility Criteria:</b></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">2.1.1.</td>
+        <td width="90%" align="justify">In order to be eligible to use the benefits of the pre-approved loan programme, the Borrower must have repaid atleast 3 EMIs or as stipulated without default.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">2.1.2.</td>
+        <td width="90%" align="justify">Notwithstanding the above, the entitlement to use the facility by the Borrower in the Pre-approved loan programme shall be at the sole discretion of the Company.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">2.1.3.</td>
+        <td width="90%" align="justify">The Borrower may opt for the pre-approved loan programme by submitting the pre-approved loan - Loan Application Form with TVS Credit. TVS Credit, based on the aforesaid criteria, may accept or reject the pre-approved loan - Loan Application Form. In the event of any suspension/ withdrawal of the credit facility due to any kind of improper repayment behavior, the Borrower agrees that TVS Credit shall not be obligated to refund any fee / enrolment fees paid by the Borrower.</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes">2.2.</td>
+        <td width="96%" align="justify"><b>Enrolment:</b></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">2.2.1.</td>
+        <td width="90%" align="justify">TVS Credit will send a Welcome Letter setting out the pre-approved loan programme/ credit details and the gist of important terms and conditions applicable for usage of the credit facility through the given contact modes/details</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">2.2.2.</td>
+        <td  width="90%" align="justify">Upon receipt of the Welcome Letter, the Borrower can activate the pre-approved loan programme facility through TVS Credit Saathi app (<strong>"Saathi App"</strong>) (or) through TVS Credit's website accessible at [<strong>.</strong>] (<strong>"TVS Credit Website"</strong>) (or) by raising a request in TVS Credit's customer care contact number.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">2.2.3.</td>
+        <td width="90%" align="justify">Once the Borrower receives an SMS / e-mail trigger from TVS Credit confirming successful enrolment to the pre-approved loan programme and sanctioning of a Credit Limit to his/her registered mobile number / e-mail id, as the case maybe, the Borrower shall login to the Saathi App/ TVS Credit Website / IVR using registered mobile number and activate the Pre-approved loan programme facility to get his Pre-approved loan entering his date of birth & OTP sent to his registered mobile number.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">2.2.4.</td>
+        <td  width="90%" align="justify">Post successfully providing the credentials, the Borrower will receive Preapproved loan programme facility activation confirmation via SMS /e-mail to his registered mobile number / e-mail id, as the case maybe. </td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes"><strong>3.</strong></td>
+        <td width="96%" align="justify"><strong>OTHER TERMS AND CONDITIONS</strong></td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">3.1.</td>
+        <td width="96%" align="justify">The Borrower agrees that any facility / transaction under this Preapproved loan programme shall be considered as a separate loan facility and the terms and conditions of the Consumer Durable Loan executed/ to be executed by the Borrower will be binding and applicable.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">3.2.</td>
+        <td width="96%" align="justify">The eligibility of credit limit, benefits, offers / other additional services offered under the pre-approved loan programme shall be at the sole discretion of TVS Credit.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">3.3.</td>
+        <td width="96%" align="justify">The Borrower shall place the request every time to utilize the Credit facility from TVS Credit (which shall be subject to the terms of the Consumer Durable Loan), before making any transactions under the pre-approved loan programme.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">3.4.</td>
+        <td width="96%" align="justify">The membership to the pre-approved loan programme shall be non-transferable and non-assignable. The credit facility shall be valid for use only in India and for the purchase of goods or services in Indian currency only. Also, there shall be restrictions in the usage at certain merchant locations / establishments/ category either permanently or as may be communicated from time to time.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">3.5.</td>
+        <td width="96%" align="justify">The Borrower always undertakes to act in good faith in relation to all dealings with the pre-approved loan programme and TVS Credit.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">3.6.</td>
+        <td width="96%" align="justify">The Borrower agrees that the loan facility under the pre-approved loan programme is not intended to be used for purchase of prohibited items under the applicable laws of India like lottery tickets, banned or proscribed magazines, participation in sweepstakes, payment for call-back services, etc., or transactions dominated in foreign currency.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">3.7.</td>
+        <td width="96%" align="justify">I hereby agree to buy the T-Health A Product at the price mentioned above. I understand that T-Health A Product is a product and the services provided to me will be subject to the terms and conditions . I hereby give my consent to contact me through phone, post or email to activate and provide services of T-Health A Product. Further, in the event I default in the repayment of the finance facility availed by me, I hereby authorize TVS Credit to cancel my membership of T-Health A Product, and I understood that the benefits would cease to exist.</td>
+    </tr>
+    #if($vasProduct)
+        <tr>
+            <td class="tdAttributes">3.8.</td>
+            <td width="96%" align="justify">I hereby agree to buy the $vasProduct Product at the price mentioned above. I understand that $vasProduct Product is a product and the services provided to me will be subject to the terms and conditions . I hereby give my consent to contact me through phone, post or email to activate and provide services of $vasProduct Product. Further, in the event I default in the repayment of the finance facility availed by me, I hereby authorize TVS Credit to cancel my membership of $vasProduct Product, and I understood that the benefits would cease to exist.</td>
+        </tr>
+    #else
+
+    #end
+    <tr>
+        #if($vasProduct)
+            <td class="tdAttributes">3.9.</td>
+        #else
+            <td class="tdAttributes">3.8.</td>
+        #end
+        <td width="96%" align="justify">TVS Credit shall not be responsible for any failures or errors or malfunctioning of POS or system or terminal during operations or electronic data capture.</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        #if($vasProduct)
+            <td class="tdAttributes">3.10.</td>
+        #else
+            <td class="tdAttributes">3.9.</td>
+        #end
+        <td width="96%" align="justify">In the event of any breach of these terms and conditions by the Borrower, he/she shall be liable for any loss, directly or indirectly, resulting from such a breach; and liable to pay TVS Credit, upon demand. The default if any committed by the Borrower in respect of his/her credit facilities availed from TVS Credit will also constitute breach.</td>
+    </tr>
+    <tr>
+        #if($vasProduct)
+            <td class="tdAttributes">3.11.</td>
+        #else
+            <td class="tdAttributes">3.10.</td>
+        #end
+        <td width="96%" align="justify">In the event of any disagreement or dispute between TVS Credit and the Borrower regarding the materiality of any matter including any event, occurrence, circumstance, change, fact, information, document, authorization, proceeding, act, omission, claims, breach, default or otherwise including use or misuse of the Pre-approved loan programme facility, the opinion of TVS Credit as to the materiality of any of the foregoing shall be final and binding on the Borrower. The Borrower shall be bound by these Terms & Conditions and policies stipulated by TVS Credit, from time to time, in this regard.</td>
+    </tr>
+    <tr>
+        #if($vasProduct)
+            <td class="tdAttributes">3.12.</td>
+        #else
+            <td class="tdAttributes">3.11.</td>
+        #end
+        <td width="96%" align="justify">For details of Charges, refer the loan term sheet which will be provided by TVS Credit for each usage of Credit limit /transaction made by the Borrower. These charges are subject to changes at the sole discretion of TVS Credit. However, such changes in charges may be made only with prospective effect giving prior notice of thirty (30) days to the Borrower.</td>
+    </tr>
+    <tr>
+        #if($vasProduct)
+            <td class="tdAttributes">3.13.</td>
+        #else
+            <td class="tdAttributes">3.12.</td>
+        #end
+        <td width="96%" align="justify">Any kind of misappropriation of the facility availed, under such circumstances, TVS Credit will take legal action as per Law.</td>
+    </tr>
+    <tr>
+        #if($vasProduct)
+            <td class="tdAttributes">3.14.</td>
+        #else
+            <td class="tdAttributes">3.13.</td>
+        #end
+        <td width="96%" align="justify">The borrower agrees and accepts that there will not be any NOC for the  Consumer Durable Loan if there is a default in the credit facility repayment</td>
+    </tr>
+    #if($vasProduct)
+        <table width="100%">
+            <tr>
+                <td>
+                    #if($logo)
+                        <img src="data:image/png;base64,$logo" width="900" height="120" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 05px;"/>
+                    #else
+                        <img src="" width="250" height="90" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 10px;border: 1px solid #00008B;" />
+                    #end
+                </td>
+            </tr>
+        </table>
+        <tr>
+            <td class="tdAttributes">3.14.</td>
+            <td width="96%" align="justify">The borrower agrees and authorizes TVS Credit to exchange,share,disclose or part with all the information and details relating to the Borrower(s) CKYCR, KYC documents, existing loans and /or repayment history to any business entity with whom the TVS Credit has or may have any business tie-up and for the purpose of extending the additional features/value added services offered via TVS Credit in tie-up with the other business entity and accepted by the borrower.</td>
+        </tr>
+    #else
+        <table width="100%">
+            <tr>
+                <td>
+                    #if($logo)
+                        <img src="data:image/png;base64,$logo" width="900" height="120" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 05px;"/>
+                    #else
+                        <img src="" width="250" height="90" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 10px;border: 1px solid #00008B;" />
+                    #end
+                </td>
+            </tr>
+        </table>
+        <tr>
+            <td class="tdAttributes">3.14.</td>
+            <td width="96%" align="justify">The borrower agrees and authorizes TVS Credit to exchange,share,disclose or part with all the information and details relating to the Borrower(s) CKYCR, KYC documents, existing loans and /or repayment history to any business entity with whom the TVS Credit has or may have any business tie-up and for the purpose of extending the additional features/value added services offered via TVS Credit in tie-up with the other business entity and accepted by the borrower.</td>
+        </tr>
+    #end
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes"><strong>4.</strong></td>
+        <td width="96%" align="justify"><strong>FEES and CHARGES</strong></td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">4.1.</td>
+        <td width="96%" align="justify">The pre-approved loan programme shall be auto renewed every year by auto debiting the annual fee from the registered bank account of the customer. The fee, so charged shall not be refundable.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">4.2.</td>
+        <td width="96%" align="justify">This annual fee shall be debited only for those customers who have not availed any loan under the pre-approved loan programme during the annual validity period.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">4.3.</td>
+        <td width="96%" align="justify">The customer can also opt the value-added services/features by paying the additional charges applicable.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">4.4.</td>
+        <td width="96%" align="justify">The customer has the option to cancel the renewal by submitting a written request to the customer support team. Upon cancellation the customer will no longer be entitled to the use any of the facility under this pre-approved loan programme. Such Cancellations shall not entitle the customer for claiming the refund on the annual fee charged prior to the submission of such cancellation request.</td>
+    </tr>
+</table>
+<br>
+<table width="100%" class="border-table">
+    <tr>
+        <td style="text-align: center"><b>Variant</b></td>
+        <td style="text-align: center" ><b>Standard*</b></td>
+        <td style="text-align: center"><b>Premium**</b></td>
+    </tr>
+    <tr>
+        <td width="33.33%" style="text-align: center">Enrolment Fee (One time)</td>
+        <td width="33.33%" style="text-align: center">Rs.499 /-</td>
+        <td width="33.33%" style="text-align: center">Rs.699 /-</td>
+    </tr>
+    <tr>
+        <td width="33.33%" style="text-align: center">Annual Fee</td>
+        <td colspan="2">Rs.117 /- (Inclusive applicable taxes)
+            <p>Pre-approved loan facility under this programme shall be auto renewed on the validity expiry month, which is mentioned on the face of the card.</p>
+            <br>
+            <p>For Example: If the validity expiry month on the face of the card is 12/2022, then renewal fee will be debited in the month of December 2022.</p>
+        </td>
+    </tr>
+    <tr>
+        <td width="33.33%" style="text-align: center">Instant Bank Transfer Annual Fee</td>
+        <td colspan="2">Rs.249 /- (Inclusive applicable taxes)
+            <p>Instant Bank Transfer annual fee shall be debited at the time of first usage within the pre-approved loan programme validity period</p>
+            <br>
+            <p>For Example: If the pre-approved loan programme annual validity period is between 01/2022 to 12/2022 and the first usage is anytime during this period, Instant Bank Transfer annual fee shall be debited from the loan disbursal.</p>
+        </td>
+    </tr>
+    <tr>
+        <td width="33.33%" style="text-align: center">Annualized Rate of Interest % (p.a) for the loans booked under pre-approved loan programme</td>
+        <td colspan="2">
+            <p>Customer will be charged effective Internal Rate of Return (IRR) ranging between 24% -35% on an annualized basis, as per Interest Rate Policy.</p>
+        </td>
+    </tr>
+    <tr>
+        <td width="33.33%" style="text-align: center">Physical Card</td>
+        <td colspan="2">Rs.100/-
+            <p>Customer shall make specific request via TVS Credit Saathi app post logging into the InstaCard homepage. Physical card shall be directly dispatched to the customer registered address only.</p>
+        </td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>
+            <p style="color:darkgrey"><b> *Standard variant of InstaCard programme shall allow the customer to use the pre-approved loan facility only with in the TVS Credit empaneled offline merchants and the Instant Bank Transfer facility </b></p>
+            <p style="color:darkgrey"><b> **Premium variant of InstaCard programme shall allow the customer to use the pre-approved loan facility with in the TVS Credit empaneled offline & online merchants along with the Instant Bank Transfer facility </b></p>
+        </td>
+    </tr>
+</table>
+<br>
+<table>
+    <tr>
+        <td class="tdAttributes"><strong>5.</strong></td>
+        <td width="96%" align="justify"><strong>EXCLUSION OF LIABILITY</strong></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes">5.1.</td>
+        <td width="96%" align="justify">Without prejudice to the foregoing, TVS Credit shall be under no liability, whatsoever, to the Borrower, in respect of any loss or damage arising, directly or indirectly, out of:</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">5.1.1.</td>
+        <td width="90%" align="justify">any defect in any goods or services supplied, including delay in delivery or non-delivery, deficiency in services between the Merchant Establishment and Borrower and / or any third party.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">5.1.2.</td>
+        <td  width="90%" align="justify">Any misstatement, misrepresentation, error or omission in any details disclosed to TVS Credit. In the event of a demand or a claim for settlement of outstanding dues from the Borrower is made, either by TVS Credit or any person acting on behalf of TVS Credit, the Borrower agrees and acknowledges that such demand or claim shall not amount to be an act of defamation or an act prejudicial to or reflecting upon the character of the Borrower, in any manner.</td>
+    </tr>
+</table>
+<table width="100%" style="page-break-before: always">
+    <tr>
+        <td>
+            #if($logo)
+                <img src="data:image/png;base64,$logo" width="900" height="120" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 05px;"/>
+            #else
+                <img src="" width="250" height="90" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 10px;border: 1px solid #00008B;" />
+            #end
+        </td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">5.1.3.</td>
+        <td width="90%" align="justify">The Borrower expressly accepts that if he / she fails to pay monies on due date, or which may be declared due prior to the date when it would otherwise have become due, or commits any default under the present terms, under which the Borrower is enjoying financial / corporate / other facility, then, TVS Credit shall, at its sole discretion, without prejudice, exercise all or any of its rights as set out in these terms and conditions. Any notice concerning payments given by TVS Credit hereunder will be deemed to have been received by the Borrower within seven (7) days of mailing to the Borrower's mailing address last notified in writing to TVS Credit. Any notice may also be sent by fax or communicated verbally and confirmed in writing by post or fax. TVS Credit shall not be held accountable for delays in receipt of notices.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">5.1.4.</td>
+        <td width="90%" align="justify">Any misappropriation/misuse of funds out of this facility, TVS credit shall not be held liable.</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes"><strong>6.</strong></td>
+        <td width="96%" align="justify"><strong>CUSTOMER GRIEVANCE REDRESSAL</strong></td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">6.1.</td>
+        <td width="96%" align="justify">The customer grievances shall be addressed as specified in the Terms & Conditions of the Consumer Durable Loan executed by the Borrower.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">6.2.</td>
+        <td width="96%" align="justify">Any disputes with respect to pre-approved loan programme facility shall be raised by the Borrowers with the Customer Care Center within seven (7) days from such occurrence. Any dispute raised by the Borrowers after seven (7) days from such occurrence shall not be entertained by TVS Credit and the TVS Credit shall not be liable for the same in any manner whatsoever. </td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">6.3.</td>
+        <td width="96%" align="justify">Any customer grievance with respect to OTP based authentication shall be conclusive evidence of the liability incurred by the Borrower. Any Charge Slip, or other payment requisition, received by Bank/ Partners for payment shall be conclusive proof that the Charge recorded on such a Charge Slip or other requisition, was properly incurred by the Borrower, unless the credentials were fraudulently misused, then the burden of proof shall lie on the Borrower. The other payment requisition referred to in this Clause shall include any and all payments pertaining to permissible expenses incurred by a Borrower at a Merchant Establishment by use of the credit facility which is not recorded as a Charge. </td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">6.4.</td>
+        <td width="96%" align="justify">All disputes in relation to this, are subject to the exclusive jurisdiction of the competent Courts in Chennai only and the laws applicable shall be Indian laws.</td>
+    </tr>
+</table>
+<br>
+<table>
+    <tr>
+        <td class="tdAttributes"><strong>7.</strong></td>
+        <td width="96%" align="justify"><strong>DISCLOSURES</strong></td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">7.1.</td>
+        <td width="96%" align="justify">The Borrower acknowledges and consents that the information under the pre-approved loan programme may be exchanged amongst other banks and financial entities that provide corporate facilities. The acceptance of an application for the pre-approved loan programme is based on no adverse reports of the individual's creditworthiness.</td>
+    </tr>
+
+    <tr>
+        <td class="tdAttributes">7.2.</td>
+        <td width="96%" align="justify">TVS Credit may report to other banks or financial entities of any delinquencies in usage of the pre-approved loan programme loan facility. Based on the receipt of adverse reports (relating to the credit-worthiness of the Borrower or his/her family members), TVS Credit may, after 15 days' prior notice in writing, cancel the Pre-approved loan programme facility, where upon the entire outstanding balance on the Pre-approved loan  loans as well as any further Charges incurred upon usage of the Pre-approved loan programme facility, though not yet booked as loan to the Borrower, shall be immediately payable by the Borrower. The Borrower shall in no event dispute regarding the aforesaid terms.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">7.3.</td>
+        <td width="96%" align="justify">TVS Credit will not send any monthly statement pertaining to any transactions made by the Borrower(s) under the pre-approved loan programme. The Borrower also confirms that all the details given in the pre-approved loan - Loan Application Form shall be true, correct and accurate and if there are any changes in the given details, he/ she will inform TVS Credit within a reasonable time period. TVS Credit disclaims all liability in case of incorrect details resulting in any loss or liability for the Borrower.</td>
+    </tr>
+</table>
+<br>
+<table width="100%">
+    <tr>
+        <td class="tdAttributes"><strong>8.</strong></td>
+        <td width="96%"><strong>TERMINATION AND CONSEQUENCES OF TERMINATION</strong></td>
+    </tr>
+</table>
+<br>
+<table>
+    <tr>
+        <td class="tdAttributes">8.1.</td>
+        <td width="96%" align="justify">TVS Credit in its sole discretion may terminate the enrolment of the Borrower from the Pre-approved loan programme:</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">8.1.1.</td>
+        <td width="90%" align="justify">In the event the Borrower is declared insolvent or upon the death of the Borrower.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">8.1.2.</td>
+        <td  width="90%" align="justify">In the event of the Borrower committing breach of any of the Terms and Conditions.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">8.1.3.</td>
+        <td width="90%" align="justify">In the event of any restriction imposed on the Borrower by an order of a competent Court or Order issued by any regulatory or statutory authority in India or any investigating agency.</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">8.1.4.</td>
+        <td  width="90%" align="justify">In the event the pre-approved loan programme becomes illegal under the applicable laws, rules, guidelines or circular; or</td>
+    </tr>
+    <tr>
+        <td width="5%"></td>
+        <td class="nestedTd">8.1.5.</td>
+        <td  width="90%" align="justify">In the event the pre-approved loan programme is terminated.</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes">8.2.</td>
+        <td width="96%" align="justify">The terms and conditions concerning the consequences of termination of the Consumer Durable Loan shall apply mutatis mutandis to the consequences of termination under the pre-approved loan programme.</td>
+    </tr>
+</table>
+<br>
+<table>
+    <tr>
+        <td class="tdAttributes"><strong>9.</strong></td>
+        <td width="96%" align="justify"><strong>CUSTOMER SUPPORT</strong></td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">9.1.</td>
+        <td width="96%" align="justify">For any queries, visit our website <a href="https://www.tvscredit.com/get-in-touch"> https://www.tvscredit.com/get-in-touch</a> and follow the directions to get your query resolved.</td>
+    </tr>
+
+    <tr>
+        <td class="tdAttributes">9.2</td>
+        <td width="96%" align="justify">InstaCard programme customers may also reach our Customer Care call center mentioned in the above website</td>
+    </tr>
+</table>
+<br>
+<table>
+    <tr>
+        <td class="tdAttributes"><strong>10.</strong></td>
+        <td width="96%" align="justify"><strong>CHANGING TERMS AND CONDITIONS</strong></td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">10.1.</td>
+        <td width="96%" align="justify">Pre-approved loan programme shall be subject to the terms and conditions mentioned herein and any additional conditions stipulated by TVS Credit, from time to time.</td>
+    </tr>
+</table>
+<br>
+<table width="100%" style="page-break-before: always">
+    <tr>
+        <td>
+            #if($logo)
+                <img src="data:image/png;base64,$logo" width="900" height="120" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 05px;"/>
+            #else
+                <img src="" width="250" height="90" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 10px;border: 1px solid #00008B;" />
+            #end
+        </td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes">10.2.</td>
+        <td width="96%" align="justify">The Borrower shall be responsible for reviewing these terms and conditions, including amendments thereto and shall be deemed to have accepted the amended terms and conditions by continuing to use the pre-approved loan programme facilities.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes">10.3.</td>
+        <td width="96%" align="justify">The Borrower hereby agrees to all the terms and conditions in the loan application form in the form and manner stipulated by the TVS Credit, from time to time.</td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"><strong>11.</strong></td>
+        <td width="96%" align="justify"><strong>DECLARATION</strong></td>
+    </tr>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%" align="justify">I/ we hereby declare that the one-time password (OTP) generated using the mobile phone number <u>$mobileNo</u> belongs to me/my relative and the company can rely upon the same and process the loan application. I / we hereby adhere to all the terms & conditions and release, absolve the company from any liability whatsoever for processing the loan documentation basis this declaration subject to fulfillment of other criteria as per policy of the company.
+        </td>
+    </tr>
+</table>
+<br>
+<table width="100%" style="float:left;margin-top: 20px">
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%"><b> Borrower's name and signature </b> </td>
+    </tr>
+    <br>
+    <tr>
+        <td class="tdAttributes"></td>
+        <td width="96%"><b>(OTP Based)</b> </td>
+    </tr>
+    <tr>
+        <p><br></p>
+    </tr>
+</table>
+<table width="100%" style="margin-top: 20px;" >
+    <tr>
+        <td width="40%" style="font-size:14px;">Date
+            #if($dateOfApplicationInFormat)
+                <input class="notTable" type="text" name="fname" style=" width: 200px;" value="$dateOfApplicationInFormat">
+            #else
+                <input class="notTable" type="text" name="fname" style=" width: 200px;"/>
+            #end
+        </td>
+        <td width="20%"></td>
+        <td width="40%" style="font-size:14px;">Place
+            #if($dealerPlace)
+                <input class="notTable" type="text" name="fname" style=" width: 300px;" value="$dealerPlace">
+            #else
+                <input class="notTable" type="text" name="fname" style=" width: 300px;"/>
+            #end
+    </tr>
+</table>
+<br>
+<br>
+
+<table class="border-top border-left border-right" style="margin-top: 40px;">
+    <tr>
+        <td class="text-center" style="background-color:grey;">Demand Promissory Note</td>
+    </tr>
+</table>
+<table class="border-left border-right">
+    <tr>
+        <td width="40%">
+            Rupees
+            #if($financeAmount)
+                <input class="notTable" type="text" name="fname" style=" width: 250px;" value="$financeAmount">
+            #else
+                <input class="notTable" type="text" name="fname" style=" width: 250px;">
+            #end
+
+
+            /-
+        </td>
+        <td width="60%">
+            Date:
+            #if($dateOfApplicationInFormat)
+                <input class="notTable" type="text" name="fname" style=" width: 200px;" value="$dateOfApplicationInFormat">
+            #else
+                <input class="notTable" type="text" name="fname" style=" width: 200px;"/>
+            #end
+        </td>
+    </tr>
+</table>
+<table class="border-left border-right">
+    <tr>
+        <td>
+            ON DEMAND, I/WE
+
+            #if($borrowerName)
+                <input class="notTable" type="text" name="fname" style=" width: 400px;" value="$borrowerName">
+            #else
+                <input class="notTable" type="text" name="fname" style=" width: 400px;">
+            #end
+
+            promise to pay TVS Credit Services Ltd.,    Chaitanya, No.12, Khader Nawaz Khan Road, Nungambakkam, Chennai, Tamil Nadu 600006, a sum of Rupees
+
+            #if($financeAmountInWords)
+                <input class="notTable" type="text" name="fname" style=" width: 650px;" value="$financeAmountInWords">
+            #else
+                <input class="notTable" type="text" name="fname" style=" width: 650px;">
+            #end
+
+            For value received plus interest there on at the rate of
+
+            #if($customerIrr)
+                <input class="notTable" type="text" name="fname" style=" width: 75px;" value="$customerIrr">
+            #else
+                <input class="notTable" type="text" name="fname" style=" width: 75px;">
+            #end
+
+
+            % per annum fixed  computed with monthly rest of the value received and I/We unconditionally and irrevocably waive the presentment for payment and noting and protest of this Promissory Note.
+        </td>
+    </tr>
+</table>
+<table class="border-left border-right border-bottom">
+    <tr>
+        <td width="90%"></td>
+        <td width="10%">
+            <label>
+                Borrower
+            </label>
+        </td>
+    </tr>
+</table>
+<p style="page-break-before: always">
+<table width="100%" style="page-break-before: always">
+    <tr>
+        <td>
+            #if($logo)
+                <img src="data:image/png;base64,$logo" width="900" height="120" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 05px;"/>
+            #else
+                <img src="" width="250" height="90" align="bottom" alt="Paste Photo here and sign across it such that your Signature is on the photo as well as on the form" style="margin-left: 10px;border: 1px solid #00008B;" />
+            #end
+        </td>
+    </tr>
+</table>
+<table width="100%" style="margin-top: 20px;margin-bottom: 10px">
+    <tr>
+        <td width="100%">
+            <b style="font-size:16px;">Schedule-II forming part of the Loan Agreement</b>
+        </td>
+    </tr>
+</table>
+<table width="100%" class="border-table">
+    <tr>
+        <td width="100%" class="text-center">REPAYMENT SCHEDULE</td>
+    </tr>
+</table>
+<table width="100%" class="border-table">
+    <tr>
+        <td width="5%">SR No</td>
+        <td width="15%">Due Date</td>
+        <td width="20%">EMI/Installment</td>
+        <td width="20%">Principal</td>
+        <td width="20%">Interest</td>
+        <td width="20%">O/S Post Int. Payment</td>
+
+    </tr>
+    #if($repaymentScheduleList && $repaymentScheduleList.size()>=1)
+        #foreach($repaymentSchedule in $repaymentScheduleList)
+            <tr>
+                <td width="5%">$!repaymentSchedule.no</td>
+                <td width="15%">$!repaymentSchedule.cyldt</td>
+                <td width="20%">$!repaymentSchedule.Emi</td>
+                <td width="20%">$!repaymentSchedule.Priemi</td>
+                <td width="20%">$!repaymentSchedule.Intemi</td>
+                <td width="20%">$!repaymentSchedule.clsbal</td>
+            </tr>
+        #end
+    #end
+</table>
+<table>
+    <tr>
+        <td width="96%"  align="justify"><br>"The Actual EMI start date can be the same or differ based on the disbursement date, Actual EMI start date will be communicated in the welcome letter post disbursement"</td>
+    </tr>
+    <tr>
+        <td width="96%"  align="justify"><strong>Borrower and Guarantor are requested to note that </strong> <br>If there is a default in making payment of Principal or interest or any other amount wholly or partly levied by the Company on or before due date, then such overdue loan account shall be classified as <strong>SMA (Special Mention account) or NPA (Non-performing asset)</strong> as per RBI regulations as indicated in below table:</td>
+    </tr>
+</table>
+<table width="100%" class="border-table">
+    <tr>
+        <td width="55%"><strong>Overdue</strong></td>
+        <td width="45%"><strong>Classification</strong></td>
+    </tr>
+    <tr>
+        <td width="55%">For a period <strong>upto 30 days</strong></td>
+        <td width="45%">SMA-0</td>
+    </tr>
+    <tr>
+        <td width="55%">For a period <strong>more than 30 days and upto 60 days</strong></td>
+        <td width="45%">SMA-1</td>
+    </tr>
+    <tr>
+        <td width="55%">For a period <strong>more than 60 days and upto 90 days</strong></td>
+        <td width="45%">SMA-2</td>
+    </tr>
+    <tr>
+        <td width="55%">For a period <strong>more than 90 days</strong></td>
+        <td width="45%">NPA*</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td class="tdAttributes"><br><strong>*Upgradation of accounts classified as NPAs</strong> <br>Loan account once classified as NPA can be upgraded as standard only after entire arrears of principal, interest and any other amount are paid by the borrower.</td>
+    </tr>
+    <tr>
+        <td width="96%"  align="justify"><strong>Illustration for Classification of borrowers account as SMA/NPA for easy reference:</strong> <br>If Due date of a Loan account repayment is April 05, 202X, then indicative SMA/NPA classification shall be as follows:</td>
+    </tr>
+</table>
+
+<table width="100%" class="border-table">
+    <tr>
+        <td width="40%"><strong>Overdue period of Principal / Interest / Any other amount</strong></td>
+        <td width="30%"><strong>SMA/NPA Classification Category</strong></td>
+        <td width="30%"><strong>SMA/NPA Classification Category</strong></tr>
+    </tr>
+    <tr>
+        <td width="40%">Upto 30 days</td>
+        <td width="30%">SMA-0</td>
+        <td width="30%">April 05, 202X</tr>
+    </tr>
+    <tr>
+        <td width="40%">More than 30 days and upto 60 days</td>
+        <td width="30%">SMA-1</td>
+        <td width="30%">May 05, 202X</tr>
+    </tr>
+    <tr>
+        <td width="40%">More than 60 days and upto 90 days</td>
+        <td width="30%">SMA-1</td>
+        <td width="30%">June 04, 202X</tr>
+    </tr>
+    <tr>
+        <td width="40%">Over 90 days</td>
+        <td width="30%">NPA</td>
+        <td width="30%">July 04, 202X</tr>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td width="96%"  align="justify"><br>If due date of a loan account is April 05, 202X, and full dues are not received by the Company on or before this date, the date of overdue shall be April 05, 202X and this account shall be <strong>tagged as SMA-0.</strong></td>
+    </tr>
+    <tr>
+        <td width="96%"  align="justify">If the loan account continues to remain overdue then this account shall be <strong>tagged as SMA-1</strong> on May 05, 202X i.e. upon completion of 30 days of being continuously overdue. Accordingly, the date of SMA-1 classification for that account shall be May 05, 202X.</td>
+    </tr>
+    <tr>
+        <td width="96%"  align="justify">If the loan account continues to remain overdue, it shall be <strong>tagged as SMA-2</strong> on June 04, 202X i.e. upon completion of 60 days of being continuously overdue. Accordingly, the date of SMA-2 classification for that account shall be June 04, 202X.</td>
+    </tr>
+    <tr>
+        <td width="96%"  align="justify">Similarly, if the loan account continues to remain overdue further, it shall be classified as <strong>NPA</strong> on July 04, 202X.</td>
+    </tr>
+</table>
+<p style="page-break-before: always">
+<table width="100%" style="margin-top: 20px;margin-bottom: 10px">
+    <tr>
+        <td width="100%">
+            <b style="font-size:16px;">SANCTION LETTER CUM LOAN TERM SHEET</b>
+        </td>
+    </tr>
+</table>
+<table width="80%" style="margin-top: 5px;margin-bottom: 20px">
+    <tr>
+        <td width="100%">
+            <b style="font-size:16px;">Scheme & Details</b>
+        </td>
+    </tr>
+</table>
+<table width="100%" class="border-table">
+    <tr>
+        <td width="45%">Prospect Number</td>
+
+        <td width="55%">
+            #if($prospectNo)
+                <input class="input-box-text" style="width:100%;" type="text" name="fname"   value="$prospectNo">
+            #else
+                <input class="input-box-text" style="width:100%;"  type="text" name="fname"  />
+            #end
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">Customer Name</td>
+        <td width="55%">
+            #if($borrowerName)
+                <input class="input-box-text" style="width:100%;"  type="text" name="fname"  value="$borrowerName">
+            #else
+                <input class="input-box-text" style="width:100%;"  type="text" name="fname"  />
+            #end
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">Dealer Name</td>
+        <td width="55%">
+            #if($merchantName)
+                <input class="input-box-text" style="width:100%;"  type="text" name="fname"   value="$merchantName">
+            #else
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"  />
+            #end
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">Sanction Date</td>
+        <td width="55%">
+            #if($sanctionDate)
+                <input class="input-box-text" style="width:100%;"  type="text" name="fname"  value="$sanctionDate">
+            #else
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"  />
+            #end
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">Cust IRR (% p.a. fixed - calculated on monthly reducing balance method)</td>
+        <td width="55%">
+            #if($customerIrr)
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"   value="$customerIrr">
+            #else
+                <input class="input-box-text" style="width:100%;"  type="text" name="fname"  />
+            #end
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">Product Financed & Model</td>
+        <td width="55%">
+            #if($modelNo_Manfactr)
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"   value="$modelNo_Manfactr">
+            #else
+                <input class="input-box-text" style="width:100%;"  type="text" name="fname"  />
+            #end
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">Loan Amount  <STRONG><strong><span style="font-size: 11px">Rs.</span></strong></STRONG></td>
+        <td width="55%">
+            #if($financeAmount)
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"   value="$financeAmount">
+            #else
+                <input class="input-box-text" style="width:100%;"  type="text" name="fname"  />
+            #end
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">EMI Amount for CD (A)  <STRONG><strong><span style="font-size: 11px">Rs.</span></strong></STRONG></td>
+        <td width="55%">
+            #if($EMIInRs)
+                <input class="input-box-text" style="width:100%;"  type="text" name="fname"  value="$EMIInRs">
+            #else
+                <input class="input-box-text" style="width:100%;"  type="text" name="fname" />
+            #end
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">EMI Amount for Extended Warranty (B) <STRONG><strong><span style="font-size: 11px">Rs.</span></strong></STRONG></td>
+        <td width="55%">
+            #if($ewEmiTvs)
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"   value="$ewEmiTvs">
+            #else
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"  />
+            #end
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">EMI Amount for Credit Shield Insurance (C) <STRONG><strong><span style="font-size: 11px">Rs.</span></strong></STRONG></td>
+        <td width="55%">
+            #if($insuranceEmiTvs)
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"   value="$insuranceEmiTvs">
+            #else
+                <input class="input-box-text" style="width:100%;"  type="text" name="fname"  />
+            #end
+
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">EMI Amount for ADLD (D) <STRONG><strong><span style="font-size: 11px">Rs.</span></strong></STRONG></td>
+        <td width="55%">
+            #if($mobileEmiTvs)
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"   value="$mobileEmiTvs">
+            #else
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"  />
+            #end
+
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">EMI Amount for Health Insurance (E) <STRONG><strong><span style="font-size: 11px">Rs.</span></strong></STRONG></td>
+        <td width="55%">
+            #if($healthInsuranceEmiTvs)
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"   value="$healthInsuranceEmiTvs">
+            #else
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"  />
+            #end
+
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">EMI Amount for T-Health(F) <STRONG><strong><span style="font-size: 11px">Rs.</span></strong></STRONG></td>
+        <td width="55%">
+            #if($vasEmiTvs)
+                <input class="input-box-text" style="width:100%;"  type="text" name="fname"   value="$vasEmiTvs">
+            #else
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"  value="0.0"/>
+            #end
+
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">EMI Amount for InstaCard ATM RS 699 (G) <STRONG><strong><span style="font-size: 11px">Rs.</span></strong></STRONG></td>
+        <td width="55%">
+            #if($instaCardEmiTvs)
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"   value="$instaCardEmiTvs">
+            #else
+                <input class="input-box-text" style="width:100%;"  type="text" name="fname"  />
+            #end
+
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">Total EMI Amount ( A + B + C + D + E + F + G) <STRONG><strong><span style="font-size: 11px">Rs.</span></strong></STRONG></td>
+        <td width="55%">
+            #if($revisedEMIInRs)
+                <input class="input-box-text" style="width:100%;"  type="text" name="fname"   value="$revisedEMIInRs">
+            #else
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"  />
+            #end
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">Tenor (Months)</td>
+        <td width="55%">
+            #if($tenure)
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"   value="$tenure">
+            #else
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"  />
+            #end
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">First EMI due date</td>
+        <td width="55%">
+            #if($firstEmiDueDate)
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"   value="$firstEmiDueDate">
+            #else
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"  />
+            #end
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">Last EMI due date</td>
+        <td width="55%">
+            #if($lastEmiDueDate)
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"  value="$lastEmiDueDate">
+            #else
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"  />
+            #end
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">No of advance EMI</td>
+        <td width="55%">
+            #if($noOfAdvanceInstallmentEMI)
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"   value="$noOfAdvanceInstallmentEMI">
+            #else
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"  />
+            #end
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">Processing Fees <STRONG><strong><span style="font-size: 11px">Rs.</span></strong></STRONG></td>
+        <td width="55%">
+            #if($processingFees)
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"   value="$processingFees">
+            #else
+                <input class="input-box-text"  style="width:100%;" type="text" name="fname"  />
+            #end
+    </tr>
+    <tr>
+        <td width="45%">Mode of Payment</td>
+        <td width="55%"> #if($repaymentType)
+            <input class="input-box-text" style="width:100%;"  type="text" name="fname"   value="$repaymentType">
+        #else
+            <input class="input-box-text" style="width:100%;"  type="text" name="fname"  />
+        #end</td>
+    </tr>
+
+
+</table>
+<label>*The EMI Start date/End date printed above may vary to an extent of 1 month based on the date of disbursement of the loan.</label>
+<p style="page-break-before: always">
+<table width="100%" style="margin-top: 20px;margin-bottom: 20px">
+    <tr>
+        <td width="100%" >
+            <b style="font-size:16px;  margin-bottom: 10px">Schedule of charges:</b>
+        </td>
+    </tr>
+</table>
+
+<table width="70%" class="border-table">
+    <tr>
+        <td width="50%" bgcolor="#B7C1CF">Charges</td>
+
+        <td width="50%" bgcolor="#B7C1CF">Amount</td>
+    </tr>
+    <tr>
+        <td width="50%">Processing Fees</td>
+
+        <td width="50%">As per Scheme</td>
+    </tr>
+    #if($creditVerificationChrgs!=0.0)
+        <tr>
+            <td width="50%">Credit Verification Charges</td>
+
+            <td width="50%">Rs.$creditVerificationChrgs/-</td>
+        </tr>
+    #end
+    #if($repayRegstChrgs!=0.0)
+        <tr>
+            <td width="50%">Repayment Registration Charges</td>
+
+            <td width="50%">Rs.$repayRegstChrgs/-</td>
+        </tr>
+    #end
+
+    <tr>
+        <td width="50%">Mandate Rejection Charges</td>
+
+        <td width="50%">Rs 500</td>
+    </tr>
+
+
+    <tr>
+        <td width="50%">Duplicate Repayment Schedule</td>
+
+        <td width="50%">Rs.500/-</td>
+    </tr>
+
+    <tr>
+        <td width="50%"> Cheque Swap charges</td>
+
+        <td width="50%">Rs.500/- per swap</td>
+    </tr>
+
+    <tr>
+        <td width="50%">Statement of account</td>
+
+        <td width="50%">Rs.500/-</td>
+    </tr>
+
+    <tr>
+        <td width="50%">Duplicate NOC issuance charges</td>
+
+        <td width="50%">Rs.250/-</td>
+    </tr>
+
+    <tr>
+        <td width="50%">Service Charges</td>
+
+        <td width="50%">at actuals</td>
+    </tr>
+
+    <tr>
+        <td width="50%">Late Repayment Charges</td>
+
+        <td width="50%"><b>36% per annum on unpaid installment</b></td>
+    </tr>
+
+    <tr>
+        <td width="50%">Mandate Bounce Charges</td>
+
+        <td width="50%">Maximum of Rs.750/- per instance</td>
+    </tr>
+
+    <tr>
+        <td width="50%">Legal, Repossession & Incidental Charges</td>
+
+        <td width="50%">at actuals</td>
+    </tr>
+
+    <tr>
+        <td width="50%">Stamp Duty</td>
+
+        <td width="50%">as per state laws</td>
+    </tr>
+
+    <tr>
+        <td width="50%">Visit Charges</td>
+
+        <td width="50%">Rs. 150/- per visit</td>
+    </tr>
+
+    <tr>
+        <td width="50%">Loan cancellation charges</td>
+        <td width="50%">3% of the loan amount.</td>
+    </tr>
+
+    <tr>
+        <td width="50%">Mandate Rejection Service Charges</td>
+
+        <td width="50%">Rs. 450/-
+            <br>
+            (Charges will be levied if new mandate form is not
+            registered within 30 days from the date of
+            <br>
+            rejection of previous mandate form by Borrower's
+            bank for any reasons whatsoever.)
+        </td>
+    </tr>
+</table>
+
+
+<br>
+I confirm the receipt of 'TVS Credit Services Ltd' Terms and conditions governing this loan
+<br><br>
+<b>Received, Read and Understood</b>
+<br><br>
+<table width="100%">
+    <tr>
+        <td width="25%"><label> Name of Borrower </label></td>
+        <td width="45%">
+            #if($borrowerName)
+                <input class="notTable" type="text" name="fname" style=" width: 400px;" value="$borrowerName">
+            #else
+                <input class="notTable" type="text" name="fname" style=" width: 400px;"/>
+            #end
+
+        </td>
+        <td width="10%"><label>  Signature </label> </td>
+        <td width="15%"><input class="notTable" type="text" name="fname" style=" width: 300px;"></td>
+    </tr>
+</table>
+
+
+</body>
+
